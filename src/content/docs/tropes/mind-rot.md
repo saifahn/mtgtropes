@@ -60,8 +60,10 @@ Funny when people suddenly ask "How many cards in hand out of nowhere"
 - `Ghost-Lit Stalker` (SOK)
 - `Haunting Hymn` (TSP)
 - `Mindculling` (NPH)
-  - also see Divination
-  - also see [Phyrexian Mirrors](/tropes/phyrexian-mirrors)
+  - also see [Divination](./divination)
+  - also see [Phyrexian Mirrors](./phyrexian-mirrors)
+- `Bad Deal` (M21)
+  - same as above
 - `Okiba-Gang Shinobi` (BOK)
 - `Ordeal of Erebos` (THS)
   - these cards were generally pretty good - tempos based format and just adding a bunch of +1/+1 counters with an effect was pretty good
