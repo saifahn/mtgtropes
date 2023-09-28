@@ -19,6 +19,15 @@ export default defineConfig({
           autogenerate: { directory: 'sets' },
         },
       ],
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            src: '/card-preview.js',
+            defer: true,
+          },
+        },
+      ],
     }),
   ],
 });
