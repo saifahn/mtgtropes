@@ -25,6 +25,7 @@ export default defineConfig({
           attrs: {
             src: '/card-preview.js',
             defer: true,
+            type: 'module',
           },
         },
       ],
