@@ -24,6 +24,7 @@ async function replaceCardsWithLinks() {
 function createCardPreviewDialog() {
   const dialog = document.createElement('dialog');
   dialog.id = 'card-preview-dialog';
+  dialog.style = 'top: 50%; left: 50%; transform: translate(-50%, -50%);';
   const image = document.createElement('img');
   image.id = 'card-preview-image';
   dialog.appendChild(image);
