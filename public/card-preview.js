@@ -3,13 +3,14 @@ async function getScryfallImageURL(name) {
     `https://api.scryfall.com/cards/named?fuzzy=${name}`
   );
   const card = await response.json();
-  console.log(card);
-  alert(card.image_uris.small);
+  const dialog = document.getElementById('card-preview-dialog');
+  const image = document.getElementById('card-preview-image');
+  image.src = card.image_uris.normal;
+  dialog.showModal();
 }
 
 async function replaceCardsWithLinks() {
   const cardNames = document.querySelectorAll('code');
-  console.log('list of cards', cardNames);
   cardNames.forEach((card) => {
     const button = document.createElement('button');
     button.innerText = card.innerText;
@@ -20,4 +21,14 @@ async function replaceCardsWithLinks() {
   });
 }
 
+function createCardPreviewDialog() {
+  const dialog = document.createElement('dialog');
+  dialog.id = 'card-preview-dialog';
+  const image = document.createElement('img');
+  image.id = 'card-preview-image';
+  dialog.appendChild(image);
+  document.body.appendChild(dialog);
+}
+
+createCardPreviewDialog();
 await replaceCardsWithLinks();
