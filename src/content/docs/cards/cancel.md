@@ -1,5 +1,5 @@
 ---
-title: three mana unconditional counterspell
+title: Cancel
 ---
 
 ## Cards

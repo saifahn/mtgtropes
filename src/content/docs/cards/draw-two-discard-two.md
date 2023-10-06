@@ -1,5 +1,5 @@
 ---
-title: draw 2 discard 2
+title: Draw Two Discard Two
 ---
 
 ## Cards

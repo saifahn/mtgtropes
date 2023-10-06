@@ -1,5 +1,5 @@
 ---
-title: black draw lose life
+title: Night's Whisper
 ---
 
 What was the original?

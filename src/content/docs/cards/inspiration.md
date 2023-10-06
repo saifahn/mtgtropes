@@ -1,5 +1,5 @@
 ---
-title: instant draw two
+title: Inspiration
 ---
 
 ## Cards
