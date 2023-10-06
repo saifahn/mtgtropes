@@ -11,8 +11,8 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Tropes',
-          autogenerate: { directory: 'tropes' },
+          label: 'Cards',
+          autogenerate: { directory: 'cards' },
         },
         {
           label: 'Sets',
