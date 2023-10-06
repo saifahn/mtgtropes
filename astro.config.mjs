@@ -15,8 +15,8 @@ export default defineConfig({
           autogenerate: { directory: 'cards' },
         },
         {
-          label: 'Sets',
-          autogenerate: { directory: 'sets' },
+          label: 'Archetypes',
+          autogenerate: { directory: 'archetypes' },
         },
       ],
       head: [
